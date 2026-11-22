@@ -6,6 +6,8 @@ An interactive viewer that builds a 3D cube of a sandstone from thin-section mea
 
 **Open the viewer:** https://xenon118.github.io/thin-section-lab/
 
+**DOI:** https://doi.org/10.5281/zenodo.24451002
+
 ## How to use it
 
 Open the link above, or download `index.html` and open it in a web browser. Nothing is installed, and no image or number leaves the computer: everything runs inside the browser.
@@ -35,7 +37,7 @@ The cube is a representation of the measurements. It is not a flow simulation: p
 
 ## How to cite
 
-Risha, M., & Shokair, E. (2026). Thin Section Lab (Version 1.0.0) [Software]. https://github.com/xenon118/thin-section-lab
+Risha, M., & Shokair, E. (2026). Thin Section Lab (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24451002
 
 ## Licence
 
