@@ -1,20 +1,21 @@
 # Thin Section Lab
 
-Version 1.0.0
+Version 1.1.0
 
 An interactive viewer that builds a 3D cube of a sandstone from thin-section measurements and estimates its permeability with a Kozeny-Carman relation that includes the mud fraction.
 
 **Open the viewer:** https://xenon118.github.io/thin-section-lab/
 
-**DOI:** https://doi.org/10.5281/zenodo.24451002
+**DOI:** https://doi.org/10.5281/zenodo.24451001
 
 ## How to use it
 
 Open the link above, or download `index.html` and open it in a web browser. Nothing is installed, and no image or number leaves the computer: everything runs inside the browser.
 
-- Load a thin-section image (blue-epoxy impregnated), or set the grain size, grain share and matrix by hand.
+- Load a thin-section image (blue-epoxy impregnated), or set the grain size, grain share and matrix by hand. The original image and the image as read are shown side by side.
 - Enter the measured porosity and the mud content (silt plus clay). Potassium and thorium can be entered instead of the mud content.
 - The viewer builds the cube and reports the permeability with its typical error.
+- The clay type is set from potassium and thorium when they are given. Changing it shows the assumed effect of that clay on permeability; this effect is taken from published work and is not calibrated.
 
 ## What the numbers mean
 
@@ -37,7 +38,7 @@ The cube is a representation of the measurements. It is not a flow simulation: p
 
 ## How to cite
 
-Risha, M., & Shokair, E. (2026). Thin Section Lab (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24451002
+Risha, M., & Shokair, E. (2026). Thin Section Lab (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24451001
 
 ## Licence
 
